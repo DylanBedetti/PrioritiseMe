@@ -1,5 +1,34 @@
 nav {
     background: lightcyan;
-    margin: 0;
-    
+    margin: -8px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 25pt;
+}
+
+ul {
+    padding: 40px;
+    background: paleturquoise;
+    margin: -9px;
+}
+
+li {
+    margin: 8px;
+    padding: 8px;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+input {
+    text-align: center;
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input:focus {
+    background-color: lightblue;
+    border: 3px solid green;
 }
